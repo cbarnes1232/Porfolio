@@ -32,7 +32,7 @@ font-weight: bold;
 .navbar ul li a{
     text-decoration: none;
     color: white;
-    padding: 8px 25px;
+    padding: 8px 50px;
     transition: all .5s ease;
 }
 
@@ -43,11 +43,11 @@ font-weight: bold;
 }
 
 /* Home Section */
-#home{
+#home{ 
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0,0, .5);
-    height: 1640px;
+     background-color: rgba(0, 0,0, .5);
+    height: 1700px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -57,11 +57,11 @@ font-weight: bold;
     position: absolute;
     top: 0;
     right: 0;
-    background: url("file:///C:/Users/coope/OneDrive/Pictures/Cooper-Barnes02.jpg") no-repeat center center/cover;
-    height: 1700px;
+   background: url("../Images/CooperBarnesP1.jpg") no-repeat center center/cover;
+     height: 1798px; 
     width: 100%;
-z-index: -1;
-opacity: .8;
+    z-index: -1;
+    opacity: .8;
 }
 .main{
     display: flex;
